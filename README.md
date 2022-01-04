@@ -1,0 +1,3 @@
+# memo
+
+Mój pierwszy projekt
