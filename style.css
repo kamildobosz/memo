@@ -2,18 +2,36 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: rgb(192, 106, 106);
+    background-color: rgb(219, 152, 152);
     height: 70vh;
     width: 70vh;
     margin: 50px auto;
     border: 3px solid rgb(17, 7, 59);
 }
 
+button {
+    transform: translateX(calc(50vw - 50px));
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px 0;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover {
+    background-color: rgb(65, 64, 64);
+}
+
 .wrapper div {
     margin: 5px;
     height: 22%;
     width: 22%;
-    border: 1px solid rgb(2, 2, 2);
+    border: 1px solid rgb(100, 97, 97);
 }
 
 h1 {
@@ -51,14 +69,14 @@ h1 {
     background-color: goldenrod;
 }
 
-.grey {
-    background-color: rgb(71, 70, 70);
+.violet {
+    background-color: rgb(51, 12, 70);
 }
 
 .hidden {
-    background-color: rgb(116, 108, 108);
+    background-color: rgb(170, 167, 167);
 }
 
 .off {
-    background-color: rgb(158, 152, 152);
+    background-color: rgb(95, 86, 86);
 }
